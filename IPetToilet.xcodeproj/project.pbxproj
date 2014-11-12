@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2341A139331006A2B7C /* AppDelegate.swift */; };
+		2355C2371A139331006A2B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2361A139331006A2B7C /* ViewController.swift */; };
+		2355C23A1A139331006A2B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2355C2381A139331006A2B7C /* Main.storyboard */; };
+		2355C23C1A139331006A2B7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2355C23B1A139331006A2B7C /* Images.xcassets */; };
+		2355C23F1A139331006A2B7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2355C23D1A139331006A2B7C /* LaunchScreen.xib */; };
+		2355C24B1A139331006A2B7C /* IPetToiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C24A1A139331006A2B7C /* IPetToiletTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2355C2451A139331006A2B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2355C2271A139331006A2B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2355C22E1A139331006A2B7C;
+			remoteInfo = IPetToilet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2355C22F1A139331006A2B7C /* IPetToilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPetToilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2355C2331A139331006A2B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2355C2341A139331006A2B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2355C2361A139331006A2B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2355C2391A139331006A2B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2355C23B1A139331006A2B7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2355C23E1A139331006A2B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2355C2441A139331006A2B7C /* IPetToiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPetToiletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2355C2491A139331006A2B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2355C24A1A139331006A2B7C /* IPetToiletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPetToiletTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2355C22C1A139331006A2B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2355C2411A139331006A2B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2355C2261A139331006A2B7C = {
+			isa = PBXGroup;
+			children = (
+				2355C2311A139331006A2B7C /* IPetToilet */,
+				2355C2471A139331006A2B7C /* IPetToiletTests */,
+				2355C2301A139331006A2B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2355C2301A139331006A2B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2355C22F1A139331006A2B7C /* IPetToilet.app */,
+				2355C2441A139331006A2B7C /* IPetToiletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2355C2311A139331006A2B7C /* IPetToilet */ = {
+			isa = PBXGroup;
+			children = (
+				2355C2341A139331006A2B7C /* AppDelegate.swift */,
+				2355C2361A139331006A2B7C /* ViewController.swift */,
+				2355C2381A139331006A2B7C /* Main.storyboard */,
+				2355C23B1A139331006A2B7C /* Images.xcassets */,
+				2355C23D1A139331006A2B7C /* LaunchScreen.xib */,
+				2355C2321A139331006A2B7C /* Supporting Files */,
+			);
+			path = IPetToilet;
+			sourceTree = "<group>";
+		};
+		2355C2321A139331006A2B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2355C2331A139331006A2B7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2355C2471A139331006A2B7C /* IPetToiletTests */ = {
+			isa = PBXGroup;
+			children = (
+				2355C24A1A139331006A2B7C /* IPetToiletTests.swift */,
+				2355C2481A139331006A2B7C /* Supporting Files */,
+			);
+			path = IPetToiletTests;
+			sourceTree = "<group>";
+		};
+		2355C2481A139331006A2B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2355C2491A139331006A2B7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2355C22E1A139331006A2B7C /* IPetToilet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2355C24E1A139331006A2B7C /* Build configuration list for PBXNativeTarget "IPetToilet" */;
+			buildPhases = (
+				2355C22B1A139331006A2B7C /* Sources */,
+				2355C22C1A139331006A2B7C /* Frameworks */,
+				2355C22D1A139331006A2B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPetToilet;
+			productName = IPetToilet;
+			productReference = 2355C22F1A139331006A2B7C /* IPetToilet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2355C2431A139331006A2B7C /* IPetToiletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2355C2511A139331006A2B7C /* Build configuration list for PBXNativeTarget "IPetToiletTests" */;
+			buildPhases = (
+				2355C2401A139331006A2B7C /* Sources */,
+				2355C2411A139331006A2B7C /* Frameworks */,
+				2355C2421A139331006A2B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2355C2461A139331006A2B7C /* PBXTargetDependency */,
+			);
+			name = IPetToiletTests;
+			productName = IPetToiletTests;
+			productReference = 2355C2441A139331006A2B7C /* IPetToiletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2355C2271A139331006A2B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Hogent;
+				TargetAttributes = {
+					2355C22E1A139331006A2B7C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2355C2431A139331006A2B7C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2355C22E1A139331006A2B7C;
+					};
+				};
+			};
+			buildConfigurationList = 2355C22A1A139331006A2B7C /* Build configuration list for PBXProject "IPetToilet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2355C2261A139331006A2B7C;
+			productRefGroup = 2355C2301A139331006A2B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2355C22E1A139331006A2B7C /* IPetToilet */,
+				2355C2431A139331006A2B7C /* IPetToiletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2355C22D1A139331006A2B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2355C23A1A139331006A2B7C /* Main.storyboard in Resources */,
+				2355C23F1A139331006A2B7C /* LaunchScreen.xib in Resources */,
+				2355C23C1A139331006A2B7C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2355C2421A139331006A2B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2355C22B1A139331006A2B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2355C2371A139331006A2B7C /* ViewController.swift in Sources */,
+				2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2355C2401A139331006A2B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2355C24B1A139331006A2B7C /* IPetToiletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2355C2461A139331006A2B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2355C22E1A139331006A2B7C /* IPetToilet */;
+			targetProxy = 2355C2451A139331006A2B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2355C2381A139331006A2B7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2355C2391A139331006A2B7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2355C23D1A139331006A2B7C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2355C23E1A139331006A2B7C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2355C24C1A139331006A2B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2355C24D1A139331006A2B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2355C24F1A139331006A2B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPetToilet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2355C2501A139331006A2B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IPetToilet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2355C2521A139331006A2B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IPetToiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPetToilet.app/IPetToilet";
+			};
+			name = Debug;
+		};
+		2355C2531A139331006A2B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IPetToiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPetToilet.app/IPetToilet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2355C22A1A139331006A2B7C /* Build configuration list for PBXProject "IPetToilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2355C24C1A139331006A2B7C /* Debug */,
+				2355C24D1A139331006A2B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2355C24E1A139331006A2B7C /* Build configuration list for PBXNativeTarget "IPetToilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2355C24F1A139331006A2B7C /* Debug */,
+				2355C2501A139331006A2B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2355C2511A139331006A2B7C /* Build configuration list for PBXNativeTarget "IPetToiletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2355C2521A139331006A2B7C /* Debug */,
+				2355C2531A139331006A2B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2355C2271A139331006A2B7C /* Project object */;
+}
