@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2341A139331006A2B7C /* AppDelegate.swift */; };
-		2355C2371A139331006A2B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2361A139331006A2B7C /* ViewController.swift */; };
+		2355C2371A139331006A2B7C /* HondenvoorzieningenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2361A139331006A2B7C /* HondenvoorzieningenViewController.swift */; };
 		2355C23A1A139331006A2B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2355C2381A139331006A2B7C /* Main.storyboard */; };
 		2355C23C1A139331006A2B7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2355C23B1A139331006A2B7C /* Images.xcassets */; };
 		2355C23F1A139331006A2B7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2355C23D1A139331006A2B7C /* LaunchScreen.xib */; };
 		2355C24B1A139331006A2B7C /* IPetToiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C24A1A139331006A2B7C /* IPetToiletTests.swift */; };
+		2355C2551A139396006A2B7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2355C2541A139396006A2B7C /* MapKit.framework */; };
+		2355C2581A13A0A7006A2B7C /* HondenvoorzieningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2571A13A0A7006A2B7C /* HondenvoorzieningViewController.swift */; };
+		2355C25B1A13A9E3006A2B7C /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C25A1A13A9E3006A2B7C /* Json.swift */; };
+		2355C25D1A13AA02006A2B7C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C25C1A13AA02006A2B7C /* Service.swift */; };
+		2355C2601A13AA46006A2B7C /* Hondenvoorziening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C25F1A13AA46006A2B7C /* Hondenvoorziening.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		2355C22F1A139331006A2B7C /* IPetToilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPetToilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2355C2331A139331006A2B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2355C2341A139331006A2B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2355C2361A139331006A2B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2355C2361A139331006A2B7C /* HondenvoorzieningenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondenvoorzieningenViewController.swift; sourceTree = "<group>"; };
 		2355C2391A139331006A2B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2355C23B1A139331006A2B7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2355C23E1A139331006A2B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2355C2441A139331006A2B7C /* IPetToiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPetToiletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2355C2491A139331006A2B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2355C24A1A139331006A2B7C /* IPetToiletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPetToiletTests.swift; sourceTree = "<group>"; };
+		2355C2541A139396006A2B7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2355C2571A13A0A7006A2B7C /* HondenvoorzieningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondenvoorzieningViewController.swift; sourceTree = "<group>"; };
+		2355C25A1A13A9E3006A2B7C /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		2355C25C1A13AA02006A2B7C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2355C25F1A13AA46006A2B7C /* Hondenvoorziening.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hondenvoorziening.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2355C2551A139396006A2B7C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,7 @@
 		2355C2261A139331006A2B7C = {
 			isa = PBXGroup;
 			children = (
+				2355C2541A139396006A2B7C /* MapKit.framework */,
 				2355C2311A139331006A2B7C /* IPetToilet */,
 				2355C2471A139331006A2B7C /* IPetToiletTests */,
 				2355C2301A139331006A2B7C /* Products */,
@@ -77,8 +89,10 @@
 		2355C2311A139331006A2B7C /* IPetToilet */ = {
 			isa = PBXGroup;
 			children = (
+				2355C25E1A13AA23006A2B7C /* models */,
+				2355C2591A13A6B6006A2B7C /* service */,
+				2355C2561A139762006A2B7C /* controllers */,
 				2355C2341A139331006A2B7C /* AppDelegate.swift */,
-				2355C2361A139331006A2B7C /* ViewController.swift */,
 				2355C2381A139331006A2B7C /* Main.storyboard */,
 				2355C23B1A139331006A2B7C /* Images.xcassets */,
 				2355C23D1A139331006A2B7C /* LaunchScreen.xib */,
@@ -110,6 +124,32 @@
 				2355C2491A139331006A2B7C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2355C2561A139762006A2B7C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2355C2361A139331006A2B7C /* HondenvoorzieningenViewController.swift */,
+				2355C2571A13A0A7006A2B7C /* HondenvoorzieningViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		2355C2591A13A6B6006A2B7C /* service */ = {
+			isa = PBXGroup;
+			children = (
+				2355C25C1A13AA02006A2B7C /* Service.swift */,
+				2355C25A1A13A9E3006A2B7C /* Json.swift */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		2355C25E1A13AA23006A2B7C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2355C25F1A13AA46006A2B7C /* Hondenvoorziening.swift */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +196,9 @@
 		2355C2271A139331006A2B7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Hogent;
 				TargetAttributes = {
 					2355C22E1A139331006A2B7C = {
@@ -212,8 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2355C2371A139331006A2B7C /* ViewController.swift in Sources */,
+				2355C2601A13AA46006A2B7C /* Hondenvoorziening.swift in Sources */,
+				2355C2371A139331006A2B7C /* HondenvoorzieningenViewController.swift in Sources */,
 				2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */,
+				2355C25D1A13AA02006A2B7C /* Service.swift in Sources */,
+				2355C2581A13A0A7006A2B7C /* HondenvoorzieningViewController.swift in Sources */,
+				2355C25B1A13A9E3006A2B7C /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +321,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -340,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IPetToilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hogent.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,6 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IPetToilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hogent.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -368,6 +417,7 @@
 				);
 				INFOPLIST_FILE = IPetToiletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hogent.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPetToilet.app/IPetToilet";
 			};
@@ -383,6 +433,7 @@
 				);
 				INFOPLIST_FILE = IPetToiletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.hogent.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPetToilet.app/IPetToilet";
 			};
@@ -407,6 +458,7 @@
 				2355C2501A139331006A2B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2355C2511A139331006A2B7C /* Build configuration list for PBXNativeTarget "IPetToiletTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +467,7 @@
 				2355C2531A139331006A2B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
