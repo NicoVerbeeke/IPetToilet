@@ -20,7 +20,7 @@ De volgende details worden weergegeven in het detailvenster:
 - soort
 - plaatsomschrijving
 - Gemeente + postcode
-- plaats -> wordt weergegeven door een speld op een google maps widget
+- plaats -> wordt weergegeven door een speld op een kaart
 
 Het project bevat een NavigationController en 2 TableViews.
 
