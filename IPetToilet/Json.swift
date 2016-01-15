@@ -39,8 +39,6 @@ class Json
         
             let simpleData = jsonPlacemark["ExtendedData"]!["SchemaData"]!!["SimpleData"]! as? NSArray
             
-            
-            
             var gemeente = ""
             var plaatsOmschrijving = ""
             var soort = ""
@@ -66,22 +64,6 @@ class Json
             
             
         }
-        
-        /*let jsonVoorzieningen = jsonData!["Hondenvoorzieningen"] as! NSArray?
-        for jsonVoorziening in jsonVoorzieningen! {
-            let jsonVoorziening = jsonVoorziening as! NSDictionary
-            let soort = jsonVoorziening["soort"] as! String
-            var hulpString = jsonVoorziening["lat"]as! NSString
-            let latitude = hulpString.doubleValue as Double
-            hulpString = jsonVoorziening["long"] as! NSString
-            let longitude = hulpString.doubleValue as Double
-            let plaats = Location(latitude: latitude, longitude: longitude)
-            let plaatsOmschrijving = jsonVoorziening["plaatsomsc"] as! String
-            let gemeente = jsonVoorziening["gemeente"] as! String
-            let postcode = jsonVoorziening["postcode"] as! String
-            voorzieningen.append(Hondenvoorziening(soort: soort, plaats: plaats, plaatsOmschrijving: plaatsOmschrijving, gemeente: gemeente, postcode: postcode))
-        }*/
-        
         
         return voorzieningen
     }
