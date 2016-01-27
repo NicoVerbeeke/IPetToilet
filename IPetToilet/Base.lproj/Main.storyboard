@@ -216,11 +216,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80y-Hc-jdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="1359" y="755"/>
-=======
-            <point key="canvasLocation" x="1441" y="349"/>
->>>>>>> master
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uEP-UE-Z4D">
@@ -242,34 +238,36 @@
         <scene sceneID="LkQ-dq-moe">
             <objects>
                 <tableViewController title="Overzicht hondenvoorzieningen" id="deC-lC-rHP" customClass="HondenvoorzieningOverViewViewController" customModule="IPetToilet" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="568" sectionHeaderHeight="28" sectionFooterHeight="28" id="GdS-He-vFq">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="568" sectionHeaderHeight="28" sectionFooterHeight="28" id="GdS-He-vFq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="568" id="Hgp-U1-ul3">
-                                <rect key="frame" x="0.0" y="92" width="600" height="568"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hgp-U1-ul3" id="BdN-dd-tLQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
-                                            <rect key="frame" x="8" y="-37" width="584" height="495"/>
+                        <sections>
+                            <tableViewSection id="cAj-bJ-Fd1">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="568" id="Hgp-U1-ul3">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="568"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" tableViewCell="Hgp-U1-ul3" id="BdN-dd-tLQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
+                                                </mapView>
+                                            </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="200" id="3N2-jH-uCb"/>
+                                                <constraint firstAttribute="bottom" secondItem="FZc-5j-ABL" secondAttribute="bottom" id="JB1-lb-xiJ"/>
+                                                <constraint firstItem="FZc-5j-ABL" firstAttribute="top" secondItem="BdN-dd-tLQ" secondAttribute="top" id="Qae-Lm-PHk"/>
+                                                <constraint firstItem="FZc-5j-ABL" firstAttribute="leading" secondItem="BdN-dd-tLQ" secondAttribute="leading" id="Wg9-7e-iI8"/>
+                                                <constraint firstAttribute="trailing" secondItem="FZc-5j-ABL" secondAttribute="trailing" id="aWh-Bs-W0e"/>
                                             </constraints>
-                                        </mapView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="FZc-5j-ABL" firstAttribute="trailing" secondItem="BdN-dd-tLQ" secondAttribute="trailingMargin" id="88N-tc-xCE"/>
-                                        <constraint firstAttribute="centerY" secondItem="FZc-5j-ABL" secondAttribute="centerY" constant="-0.25" id="Bm7-V9-FPJ"/>
-                                        <constraint firstItem="FZc-5j-ABL" firstAttribute="leading" secondItem="BdN-dd-tLQ" secondAttribute="leadingMargin" id="MuX-Mg-9EC"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </tableViewCell>
-                        </prototypes>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="deC-lC-rHP" id="Wa7-tH-qEv"/>
                             <outlet property="delegate" destination="deC-lC-rHP" id="hsY-3l-EGQ"/>
@@ -278,6 +276,9 @@
                     <navigationItem key="navigationItem" title="Overzicht hondenvoorzieningen" id="gZF-NX-nSE">
                         <barButtonItem key="backBarButtonItem" title="&lt;" id="HmM-kw-DIh"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="overzicht" destination="FZc-5j-ABL" id="3U9-59-Fg3"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMB-Id-p9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

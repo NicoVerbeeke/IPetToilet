@@ -7,7 +7,7 @@ class HondenvoorzieningOverViewViewController: UITableViewController{
     @IBOutlet weak var soort: UILabel!
     @IBOutlet weak var plaatsOmschrijving: UILabel!
     @IBOutlet weak var gemeente: UILabel!
-    @IBOutlet weak var plaats: MKMapView!
+    @IBOutlet weak var overzicht: MKMapView!
     @IBOutlet weak var postcode: UILabel!
     
     override func viewDidLoad() {
