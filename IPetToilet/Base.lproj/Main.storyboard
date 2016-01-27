@@ -26,14 +26,14 @@
                                             <rect key="frame" x="15" y="5" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AJE-A2-Qq4">
                                             <rect key="frame" x="15" y="25" width="31" height="14"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -48,7 +48,17 @@
                             <outlet property="delegate" destination="S7l-6d-4tg" id="dRb-kU-8Eb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Hondenvoorzieningen" id="75m-LV-A3q"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="zj8-68-Fqt"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Hondenvoorzieningen" id="75m-LV-A3q">
+                        <barButtonItem key="rightBarButtonItem" title="overzicht &gt;" id="tRt-41-beg">
+                            <connections>
+                                <segue destination="deC-lC-rHP" kind="show" identifier="Overzicht" id="UxG-qJ-Fyy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vQc-28-gCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +71,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="BEL-PW-tXi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Soort" id="NVJ-gf-0Y5">
                                 <cells>
@@ -76,7 +86,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -97,7 +107,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -118,7 +128,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -135,7 +145,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -188,7 +198,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80y-Hc-jdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1369" y="349"/>
+            <point key="canvasLocation" x="1359" y="755"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uEP-UE-Z4D">
@@ -205,6 +215,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ELd-hk-R2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-177" y="349"/>
+        </scene>
+        <!--Overzicht hondenvoorzieningen-->
+        <scene sceneID="LkQ-dq-moe">
+            <objects>
+                <tableViewController title="Overzicht hondenvoorzieningen" id="deC-lC-rHP" customClass="HondenvoorzieningOverViewViewController" customModule="IPetToilet" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="568" sectionHeaderHeight="28" sectionFooterHeight="28" id="GdS-He-vFq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="568" id="Hgp-U1-ul3">
+                                <rect key="frame" x="0.0" y="92" width="600" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hgp-U1-ul3" id="BdN-dd-tLQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
+                                            <rect key="frame" x="8" y="-37" width="584" height="495"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="3N2-jH-uCb"/>
+                                            </constraints>
+                                        </mapView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="FZc-5j-ABL" firstAttribute="trailing" secondItem="BdN-dd-tLQ" secondAttribute="trailingMargin" id="88N-tc-xCE"/>
+                                        <constraint firstAttribute="centerY" secondItem="FZc-5j-ABL" secondAttribute="centerY" constant="-0.25" id="Bm7-V9-FPJ"/>
+                                        <constraint firstItem="FZc-5j-ABL" firstAttribute="leading" secondItem="BdN-dd-tLQ" secondAttribute="leadingMargin" id="MuX-Mg-9EC"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="deC-lC-rHP" id="Wa7-tH-qEv"/>
+                            <outlet property="delegate" destination="deC-lC-rHP" id="hsY-3l-EGQ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Overzicht hondenvoorzieningen" id="gZF-NX-nSE">
+                        <barButtonItem key="backBarButtonItem" title="&lt;" id="HmM-kw-DIh"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMB-Id-p9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359" y="-53"/>
         </scene>
     </scenes>
 </document>

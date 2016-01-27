@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03E18ACA1C5903F30003ABB4 /* HondenvoorzieningOverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E18AC91C5903F30003ABB4 /* HondenvoorzieningOverViewViewController.swift */; };
 		2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2341A139331006A2B7C /* AppDelegate.swift */; };
 		2355C2371A139331006A2B7C /* HondenvoorzieningenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355C2361A139331006A2B7C /* HondenvoorzieningenViewController.swift */; };
 		2355C23A1A139331006A2B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2355C2381A139331006A2B7C /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E18AC91C5903F30003ABB4 /* HondenvoorzieningOverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondenvoorzieningOverViewViewController.swift; sourceTree = "<group>"; };
 		2355C22F1A139331006A2B7C /* IPetToilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPetToilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2355C2331A139331006A2B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2355C2341A139331006A2B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				2355C2361A139331006A2B7C /* HondenvoorzieningenViewController.swift */,
 				2355C2571A13A0A7006A2B7C /* HondenvoorzieningViewController.swift */,
+				03E18AC91C5903F30003ABB4 /* HondenvoorzieningOverViewViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				2355C2601A13AA46006A2B7C /* Hondenvoorziening.swift in Sources */,
 				2355C2371A139331006A2B7C /* HondenvoorzieningenViewController.swift in Sources */,
+				03E18ACA1C5903F30003ABB4 /* HondenvoorzieningOverViewViewController.swift in Sources */,
 				2355C2351A139331006A2B7C /* AppDelegate.swift in Sources */,
 				2355C25D1A13AA02006A2B7C /* Service.swift in Sources */,
 				2355C2581A13A0A7006A2B7C /* HondenvoorzieningViewController.swift in Sources */,

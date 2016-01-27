@@ -20,9 +20,16 @@ class HondenvoorzieningenViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let hondenvoorzieningController = segue.destinationViewController as! HondenvoorzieningViewController
-        let geselecteerdeVoorziening = voorzieningen[tableView.indexPathForSelectedRow!.row]
-        hondenvoorzieningController.voorziening = geselecteerdeVoorziening
+        if(segue.identifier == "Overzicht"){
+            let hondenvoorzieningOverViewController = segue.destinationViewController as! HondenvoorzieningOverViewViewController
+            
+            hondenvoorzieningOverViewController.voorzieningen = voorzieningen
+        }else{
+            let hondenvoorzieningController = segue.destinationViewController as! HondenvoorzieningViewController
+            let geselecteerdeVoorziening = voorzieningen[tableView.indexPathForSelectedRow!.row]
+            hondenvoorzieningController.voorziening = geselecteerdeVoorziening
+        }
+        
     }
     
     
