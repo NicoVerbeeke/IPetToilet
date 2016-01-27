@@ -103,7 +103,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Plaatsomschrijving" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n5O-JJ-9tM">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Plaatsomschrijving" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n5O-JJ-9tM">
                                                     <rect key="frame" x="15" y="0.0" width="570" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -177,6 +177,23 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cge-iN-RiC" style="IBUITableViewCellStyleDefault" id="hqg-7o-CpV">
+                                        <rect key="frame" x="0.0" y="635" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hqg-7o-CpV" id="1Mm-uG-JE2">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Afstand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cge-iN-RiC">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -189,6 +206,7 @@
                         <barButtonItem key="backBarButtonItem" title="&lt;" id="uc4-86-AMh"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="afstand" destination="cge-iN-RiC" id="OQh-Vt-5RG"/>
                         <outlet property="gemeente" destination="PfJ-iX-qoc" id="lL0-Ev-DxH"/>
                         <outlet property="plaats" destination="XLa-iz-JTq" id="1ZM-4Q-9oc"/>
                         <outlet property="plaatsOmschrijving" destination="n5O-JJ-9tM" id="XIK-lk-9HU"/>
@@ -198,7 +216,11 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80y-Hc-jdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1359" y="755"/>
+=======
+            <point key="canvasLocation" x="1441" y="349"/>
+>>>>>>> master
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uEP-UE-Z4D">

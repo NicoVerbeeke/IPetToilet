@@ -20,13 +20,13 @@ De volgende details worden weergegeven in het detailvenster:
 - soort
 - plaatsomschrijving
 - Gemeente + postcode
-- plaats -> wordt weergegeven door een speld op een google maps widget
+- plaats -> wordt weergegeven door een speld op een kaart
 
 Het project bevat een NavigationController en 2 TableViews.
 
 Eén van deze tableviews wordt gebruikt om de lijst met hondenvoorzieningen weer te geven.
 
-De andere wordt gebruikt om een de layout te verkrijgen waarin de details van een hondenvoorziening worden weergegeven.
+De andere wordt gebruikt om een layout te verkrijgen waarin de details van een hondenvoorziening worden weergegeven.
 
 Het project maakt gebruik van de MapKit om de kaart weer te geven in het detailvenster.
 
