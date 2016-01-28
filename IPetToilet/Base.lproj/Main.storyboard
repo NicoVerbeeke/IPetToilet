@@ -48,7 +48,17 @@
                             <outlet property="delegate" destination="S7l-6d-4tg" id="dRb-kU-8Eb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Hondenvoorzieningen" id="75m-LV-A3q"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="zj8-68-Fqt"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Hondenvoorzieningen" id="75m-LV-A3q">
+                        <barButtonItem key="rightBarButtonItem" title="overzicht &gt;" id="tRt-41-beg">
+                            <connections>
+                                <segue destination="deC-lC-rHP" kind="show" identifier="Overzicht" id="UxG-qJ-Fyy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vQc-28-gCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,7 +216,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80y-Hc-jdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1441" y="349"/>
+            <point key="canvasLocation" x="1359" y="755"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uEP-UE-Z4D">
@@ -223,6 +233,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ELd-hk-R2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-177" y="349"/>
+        </scene>
+        <!--Overzicht hondenvoorzieningen-->
+        <scene sceneID="LkQ-dq-moe">
+            <objects>
+                <tableViewController title="Overzicht hondenvoorzieningen" id="deC-lC-rHP" customClass="HondenvoorzieningOverViewViewController" customModule="IPetToilet" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="568" sectionHeaderHeight="28" sectionFooterHeight="28" id="GdS-He-vFq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="cAj-bJ-Fd1">
+                                <cells>
+                                    <tableViewCell contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" id="Hgp-U1-ul3">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="568"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" tableViewCell="Hgp-U1-ul3" id="BdN-dd-tLQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="698"/>
+                                                </mapView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="FZc-5j-ABL" secondAttribute="bottom" id="JB1-lb-xiJ"/>
+                                                <constraint firstItem="FZc-5j-ABL" firstAttribute="top" secondItem="BdN-dd-tLQ" secondAttribute="top" id="Qae-Lm-PHk"/>
+                                                <constraint firstItem="FZc-5j-ABL" firstAttribute="leading" secondItem="BdN-dd-tLQ" secondAttribute="leading" id="Wg9-7e-iI8"/>
+                                                <constraint firstAttribute="trailing" secondItem="FZc-5j-ABL" secondAttribute="trailing" id="aWh-Bs-W0e"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="deC-lC-rHP" id="Wa7-tH-qEv"/>
+                            <outlet property="delegate" destination="deC-lC-rHP" id="hsY-3l-EGQ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Overzicht hondenvoorzieningen" id="gZF-NX-nSE">
+                        <barButtonItem key="backBarButtonItem" title="&lt;" id="HmM-kw-DIh"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="overzicht" destination="FZc-5j-ABL" id="3U9-59-Fg3"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMB-Id-p9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359" y="-53"/>
         </scene>
     </scenes>
 </document>
