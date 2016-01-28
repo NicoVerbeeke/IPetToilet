@@ -30,4 +30,11 @@ De andere wordt gebruikt om een layout te verkrijgen waarin de details van een h
 
 Het project maakt gebruik van de MapKit om de kaart weer te geven in het detailvenster.
 
-Een verdere uitbreiding zal zijn het weergeven van de afstand tussen u huidige positie en de geselecteerde hondenvoorziening.
+Eén geïmplementeerde extra feature is het weergeven van de afstand tussen u huidige positie en de geselecteerde hondenvoorziening.
+
+*** Uitbreidings opgave gegeven op 21/01/2016 ***
+Tijdens de presentatie van het project aan Men. Van Impe heb ik de opdracht gekregen om een overzichtskaart te maken met daarop/
+een weergave van alle hondenvoorzieningen die op een bepaalde afstand van de gebruiker liggen.
+Deze feature is beschikbaar door in de menubalk van de lijst met alle hondenvoorzieningen de knop "Overzicht >" te kiezen.
+
+Ik heb hier ook nog geprobeerd om een duidelijk onderscheid te maken tussen de weergave van de gebruiker en die van de hondenvoorzieningen maar dat is mij niet meer gelukt.
