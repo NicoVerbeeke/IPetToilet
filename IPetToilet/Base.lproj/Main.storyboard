@@ -245,15 +245,15 @@
                         <sections>
                             <tableViewSection id="cAj-bJ-Fd1">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="568" id="Hgp-U1-ul3">
+                                    <tableViewCell contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" id="Hgp-U1-ul3">
                                         <rect key="frame" x="0.0" y="64" width="600" height="568"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" tableViewCell="Hgp-U1-ul3" id="BdN-dd-tLQ">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="567"/>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-5j-ABL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="698"/>
                                                 </mapView>
                                             </subviews>
                                             <constraints>
